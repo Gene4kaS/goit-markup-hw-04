@@ -127,18 +127,19 @@ body {
     
 }
 
-.icon-envelope {
-    width: 16px;
-    height: 12px;
+.icon {
     margin-right: 10px;
     fill: currentColor;
 }
-.icon-smartphone {
+.smartphone {
     width: 10px;
     height: 16px;
-    margin-right: 10px;
-    fill: currentColor; 
 }
+.envelope {
+    width: 16px;
+    height: 12px;
+}
+
 
 .nav-list .link:hover,
 .nav-list .link:focus {
