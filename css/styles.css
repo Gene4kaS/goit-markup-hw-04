@@ -99,12 +99,10 @@ body {
 .main-nav {
     display: flex;
     align-items: center;
-    
 }
 
 .nav {
     display: flex;
-    
 }
 .site-link .link,
 .web-link .link {
@@ -134,10 +132,10 @@ body {
     margin-right: 10px;
 }
 
-.icon-envelope:hover,
+/* .icon-envelope:hover,
 .icon-envelope:focus {
     color: var(--accent-color);
-}
+} */
 
 .nav-list .link:hover,
 .nav-list .link:focus {
