@@ -132,7 +132,12 @@ body {
     height: 12px;
     margin-right: 10px;
     fill: currentColor;
-   
+}
+.icon-smartphone {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor; 
 }
 
 .nav-list .link:hover,
