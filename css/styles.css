@@ -131,6 +131,7 @@ body {
     height: 12px;
     margin-right: 10px;
     fill: currentColor;
+    align-items: center;
 }
 
 /* .icon-envelope:hover,
