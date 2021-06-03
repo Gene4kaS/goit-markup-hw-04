@@ -127,6 +127,12 @@ body {
 .web-link {
     color: var(--primary-text-color);
 }
+
+.icon-envelope {
+    Width: 16px;
+    Height: 12px;
+}
+
 .nav-list .link:hover,
 .nav-list .link:focus {
     color: var(--accent-color);
@@ -349,7 +355,7 @@ body {
 .section-works {
     display: flex;
     flex-wrap: wrap;
-   
+ 
 }
 .container-card {
     margin-right: 30px;
