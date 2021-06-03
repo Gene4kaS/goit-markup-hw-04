@@ -124,6 +124,7 @@ body {
 
 .web-link {
     color: var(--primary-text-color);
+    align-items: center;
 }
 
 .icon-envelope {
@@ -131,13 +132,8 @@ body {
     height: 12px;
     margin-right: 10px;
     fill: currentColor;
-    align-items: center;
+   
 }
-
-/* .icon-envelope:hover,
-.icon-envelope:focus {
-    color: var(--accent-color);
-} */
 
 .nav-list .link:hover,
 .nav-list .link:focus {
