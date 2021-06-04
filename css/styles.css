@@ -124,7 +124,14 @@ body {
 
 .web-link {
     color: var(--primary-text-color);
-    
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.web-link .link {
+    align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .contact-icon {
@@ -153,9 +160,8 @@ body {
     color: var(--primary-text-color)
 }
 
-.nav-list .site-link + .site-link,
-.contact .web-link + .web-link {
-    margin-left: 50px;
+.nav-list .site-link + .site-link {
+  margin-left: 50px;
 }
 
 .link.current {
@@ -169,7 +175,13 @@ body {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-}
+    background-image: linear-gradient(to right, rgba(48, 58, 47, 0.4),
+     rgba(47, 48, 58, 0.4)), url('../images/hero_bg.jpg');
+    max-width: 1600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
 
 .hero .title {
     margin-top: 0;
@@ -375,8 +387,8 @@ body {
     border: 1px solid var(--border-container-card);
     border-top: 0px;
 }
-.cards img {
-    display:block;
+.cards img, a {
+    display: block;
 }
 .card h2 {
     margin-top: 0px;
@@ -398,6 +410,11 @@ body {
 .section-works .text {
     font-size: 16px;
     line-height: 1.88;
+}
+
+.container-card .link:hover,
+.container-card .link:focus {
+
 }
 
 /* FOOTER style */
