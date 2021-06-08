@@ -378,9 +378,7 @@ body {
     color: var(--icon-color);
     
 }
-/* .client-link {
-    color: var(--icon-color);
-} */
+
 .client-icon {
     fill: currentColor;
 }
@@ -388,10 +386,7 @@ body {
 .clients-link:not(:last-child) {
     margin-right: 30px;
 }
-/* .client-icon:hover,
-.client-icon:focus {
-    color: var(--accent-color);
-} */
+
 .client-link:hover,
 .client-link:focus {
     border-color: var(--accent-color);
